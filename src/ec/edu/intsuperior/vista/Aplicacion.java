@@ -1,7 +1,7 @@
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * and open the template in the editor. 
  */
 package ec.edu.intsuperior.vista;
 import ec.edu.intsuperior.modelo.Cliente;
@@ -32,7 +32,7 @@ public class Aplicacion {
             switch(opc){
                 case 1:
                     System.out.println("Menu Empleado");
-                    System.out.println("1.-Ingrese la nombre: "+"\n"
+                    System.out.println("1.-Ingrese el nombre: "+"\n"
                             + "2.-Apellido: "+"\n"
                             + "3.-Nacionalidad: "+"\n"
                             + "4.-Edad: "+"\n"
@@ -45,17 +45,17 @@ public class Aplicacion {
                     System.out.println(e.toString());
                     break;
                     case 2:
-                    System.out.println("Menu Empleado");
+                    System.out.println("Menu Cliente");
                     System.out.println("1.-id Cliente: "+"\n"
                             + "2.-Nombre: "+"\n"
                             + "3.-Apellido: "+"\n"
                             + "4.-Nacionalidad: "+"\n"
                             + "5.-Edad: "+"\n"
                             + "6.-Cedula: "+"\n");
-                    Persona p1=new Persona(leer.next(),leer.next() , leer.next(), leer.nextInt(), leer.nextInt());
-                    Cliente c=new Cliente(leer.nextInt());
+                    Persona p1=new Persona(leer.next(), leer.next(), leer.next(), leer.nextInt(), leer.nextInt());
+                    Cliente c1=new Cliente(leer.nextInt());
                     System.out.println(p1.toString());
-                    System.out.println(c.toString());
+                    System.out.println(c1.toString());
                         break;
                     case 3:
                     System.out.println("Menu Directivo");
